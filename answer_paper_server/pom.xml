@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
             <groupId>com.liqingitt.exam_system</groupId>
-            <artifactId>exam_paper_server_api</artifactId>
+            <artifactId>answer_paper_server_api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

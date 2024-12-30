@@ -10,3 +10,7 @@ spring:
           uri: http://localhost:8080
           predicates:
             - Path=/exam-paper/**
+        - id: answer-paper-server
+          uri: http://localhost:8090
+          predicates:
+            - Path=/answer-paper/**

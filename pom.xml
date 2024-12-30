@@ -14,6 +14,7 @@
 		<module>common</module>
 		<module>exam_gateway</module>
 		<module>answer_paper_server</module>
+		<module>answer_paper_server_api</module>
 	</modules>
 
 	<name>exam_system_manage</name>
