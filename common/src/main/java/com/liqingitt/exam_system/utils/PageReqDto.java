@@ -10,6 +10,14 @@ public class PageReqDto {
     private long pageSize;
 
     static public <T> Page<T> toPageObj(PageReqDto pageReqDto) {
+
+        if (pageReqDto.getCurrentPage() == 0) {
+            pageReqDto.setCurrentPage(1);
+        }
+        if (pageReqDto.getPageSize() == 0) {
+            pageReqDto.setPageSize(10);
+        }
+
         return new Page<>(pageReqDto.getCurrentPage(), pageReqDto.getPageSize());
     }
 
