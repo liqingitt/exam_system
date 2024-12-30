@@ -13,6 +13,7 @@
 		<module>exam_paper_server_api</module>
 		<module>common</module>
 		<module>exam_gateway</module>
+		<module>answer_paper_server</module>
 	</modules>
 
 	<name>exam_system_manage</name>
