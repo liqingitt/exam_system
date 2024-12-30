@@ -1,0 +1,12 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: exam-gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: exam-paper-server
+          uri: http://localhost:8080
+          predicates:
+            - Path=/exam-paper/**
