@@ -1,5 +1,5 @@
-package com.liqingitt.exam_system.dto;
-
+package com.liqingitt.exam_system.dto.accountCenter;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Schema(description = "用户对象")
-public class UserBasis {
+public class UserBasis implements Serializable {
     @Schema(description = "主键id")
     @JsonSerialize(using = ToStringSerializer.class)
     private Long id;

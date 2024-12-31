@@ -1,4 +1,4 @@
-package com.liqingitt.exam_system.dto;
+package com.liqingitt.exam_system.dto.examPaper;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

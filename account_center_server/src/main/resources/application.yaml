@@ -43,3 +43,4 @@ knife4j:
   enable: true
   setting:
     language: zh_cn
+login-secret: "123456"

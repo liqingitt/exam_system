@@ -1,5 +1,6 @@
-package com.liqingitt.exam_system.dto;
+package com.liqingitt.exam_system.dto.answerPaper;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -10,11 +11,12 @@ import lombok.Data;
 
 @Data
 @Schema(description = "答卷对象")
-public class AnswerPaperBasis {
+public class AnswerPaperBasis implements Serializable {
 
     @JsonSerialize(using = ToStringSerializer.class)
     @Schema(description = "主键id")
      private Long id;
+     
 
     @Schema(description = "答题用户id")
     private Long answerUserId;

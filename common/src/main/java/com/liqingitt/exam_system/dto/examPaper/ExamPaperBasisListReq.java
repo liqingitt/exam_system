@@ -1,4 +1,5 @@
-package com.liqingitt.exam_system.dto;
+package com.liqingitt.exam_system.dto.examPaper;
+
 import com.liqingitt.exam_system.utils.PageReqDto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
