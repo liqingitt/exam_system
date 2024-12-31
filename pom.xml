@@ -15,6 +15,8 @@
 		<module>exam_gateway</module>
 		<module>answer_paper_server</module>
 		<module>answer_paper_server_api</module>
+		<module>account_center_server</module>
+		<module>account_center_server_api</module>
 	</modules>
 
 	<name>exam_system_manage</name>

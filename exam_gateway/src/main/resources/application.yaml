@@ -14,3 +14,7 @@ spring:
           uri: http://localhost:8090
           predicates:
             - Path=/answer-paper/**
+        - id: account-center-server
+          uri: http://localhost:9000
+          predicates:
+            - Path=/account-center/**
